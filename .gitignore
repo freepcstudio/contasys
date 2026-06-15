@@ -1,14 +1,21 @@
 # IntelliJ
 .idea/
+*.iml
 
-# Node
-node_modules/
+# Node / Frontend
+**/node_modules/
+**/dist/
+**/.next/
 
-# Java
-target/
+# Java / Backend
+**/target/
+**/.mvn/
+*.class
 
 # Logs
-logs/
+**/logs/
+*.log
 
-# Env
+# Env & Configs
 .env
+**/.env.local
