@@ -1,0 +1,22 @@
+pgAdmin 4
+=========
+
+Enlace: http://localhost:5050
+Credenciales:
+	Email: admin@contasys.com
+	Password: admin123
+
+Crear conexión al servidor PostgreSQL
+Servers → Register → Server
+
+Pestaña “General”
+================
+Name:	ContaSys PostgreSQL
+
+Pestaña “Connection”
+Campo	Valor
+Host name/address	postgres
+Port	5432
+Maintenance database	contasys_db
+Username	contasys_user
+Password	123456

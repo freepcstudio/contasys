@@ -1,0 +1,9 @@
+CREATE TRIGGER trg_users_audit
+
+AFTER INSERT OR UPDATE OR DELETE
+
+ON users
+
+FOR EACH ROW
+
+EXECUTE FUNCTION fn_audit_trigger();
